@@ -1,0 +1,144 @@
+body {
+    background-color: #f9f7fe;
+    font-family: "Maven Pro", sans-serif;
+}
+
+a {
+    color: #885df1;
+}
+
+.weather-app {
+    background-color: white;
+    max-width: 600px;
+    margin: 45px auto;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 15px;
+}
+
+header {
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+.search-form-input {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 6px;
+    width: 80%;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.search-form-button {
+    background: #885df1;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.weather-app-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather-app-city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.weather-app-details {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(39, 33, 66, 0.4);
+    font-weight: 500;
+}
+
+.weather-app-details strong {
+    color: #f65282;
+}
+
+.weather-app-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-app-temperature-container {
+    display: flex;
+    align-items: center;
+}
+
+.weather-app-temperature-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+.weather-app-temperature {
+    font-size: 88px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.weather-app-unit {
+    font-size: 28px;
+    margin-left: 5px;
+    color: #f65282;
+    font-weight: bold;
+}
+
+.weather-app-icon {
+    width: 100px; 
+    height: auto;
+}
+
+.weather-forecast {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.weather-forecast-day {
+    display: inline-block;
+    margin-right: 55px;
+    text-align: center;
+    color: #f65282;
+}
+
+.weather-forecast-date {
+    font-size: 14px;
+    font-weight: normal;
+    color: #c4b1f4;
+}
+
+.weather-forecast-day {
+    display: inline-block;
+    margin-right: 55px;
+    text-align: center;
+    color: #f65282;
+}
+
+.weather-forecast-day:hover {
+    color: #885df1;
+    cursor: pointer;
+}
+
+
+footer {
+    border-top: 1px solid #f9f7fe;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+
